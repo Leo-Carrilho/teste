@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #fff0f5;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #ff69b4;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  header p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  .foto-mamae {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .foto-mamae h2 {
+    color: #c2185b;
+    margin-bottom: 10px;
+  }
+  
+  .foto-mamae img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .foto-mamae img:hover {
+    transform: scale(1.03);
+  }
+  
+  
+  section {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.1);
+  }
+
+  .curiosidades2 ul{
+    font-family: cursive;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+    color: #d81b60;
+  }
+  
+  ul {
+    list-style-type: "💗 ";
+    margin-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    main {
+      padding: 0 10px;
+    }
+  }
+  
